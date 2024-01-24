@@ -9,6 +9,7 @@ Before you begin, ensure you have the following installed:
 
 ## Installation
 1. Clone this repository:
+- git clone https://github.com/Chandan-Alwala/Gift-Shop-Web-Application.git
 2. Navigate to the project folder:
 - cd Gift-Shop-Web-Application
 3. Install dependencies:
