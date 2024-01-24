@@ -10,7 +10,7 @@ const app = express();
 
 // Configure express-session
 app.use(session({
-  secret: 'your secret key', // Replace with a real secret in production
+  secret: '', // Replace with a real secret in production
   resave: false,
   saveUninitialized: true
 }));
@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://sakethm97:umagopal64@wpl.fa7iaen.mongodb.net/?retryWrites=true', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://[]/?retryWrites=true', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('Could not connect to MongoDB', err));
 
