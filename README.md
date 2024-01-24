@@ -10,9 +10,9 @@ Before you begin, ensure you have the following installed:
 ## Installation
 1. Clone this repository:
 2. Navigate to the project folder:
-cd Gift-Shop-Web-Application
+- cd Gift-Shop-Web-Application
 3. Install dependencies:
-npm install
+- npm install
 
 ### Running the Application
 1. Start the server:
